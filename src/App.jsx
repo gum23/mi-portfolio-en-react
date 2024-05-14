@@ -14,7 +14,7 @@ function App() {
   const themeStyle = theme === "light" ? Light : Dark ;
 
 
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   
 
   return (

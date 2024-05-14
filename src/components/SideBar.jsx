@@ -99,6 +99,7 @@ const Container = styled.div`
                 max-width: 100%;
                 height: auto;
                 border-radius: 50%;
+                box-shadow: 0 0 8px grey;
             };
             cursor: pointer;
             transition: all 0.3s;
