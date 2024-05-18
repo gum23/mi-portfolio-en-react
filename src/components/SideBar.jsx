@@ -62,6 +62,9 @@ const Container = styled.div`
     background: ${(props) => props.theme.bg};
     position: sticky;
     padding-top: 20px;
+    top: 0;
+    left: 0;
+    height: 100vh;
     .sideBarButton{
         position: absolute;
         top: ${v.xxlSpacing};
