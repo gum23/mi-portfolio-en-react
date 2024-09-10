@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import image from '../assets/1701145281742.jpeg';
+import image from '../assets/perfil.jpeg';
 import {v} from '../styles/Variables';
 import { links } from '../utils/listLinksSidebar';
 import { AiOutlineLeft } from "react-icons/ai";
@@ -63,7 +63,6 @@ const Container = styled.div`
     position: sticky;
     padding-top: 20px;
     top: 0;
-    left: 0;
     height: 100vh;
     .sideBarButton{
         position: absolute;

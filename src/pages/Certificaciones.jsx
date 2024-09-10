@@ -16,7 +16,7 @@ const Container = styled.div`
     flex-direction: column;
     width: 90%;
     align-items: center;
-    margin-top: 24px;
+    margin: 32px auto;
     .titleFrontend{
         font-size: 1.5rem;
     }

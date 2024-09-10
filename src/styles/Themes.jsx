@@ -46,7 +46,11 @@ export const Light = {
     texttertiary: "#969593",
     //toggle
     lightbackground: "linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)",
-  lightcheckbox: "#fce100"
+  lightcheckbox: "#fce100",
+
+  //Acordion skills
+  accorBackground: "#3F5286"
+  
 }
 
 export const Dark = {
@@ -96,5 +100,11 @@ export const Dark = {
     texttertiary: "#969593",
     //toggle
     darkbackground:"linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898", 
-    darkcheckbox: "#757575"
+    darkcheckbox: "#757575",
+
+    //Acordion skills
+    accorBackground: "#3F5286",
+
+    //Form contact
+    formBackground: "#3F5286"
 }

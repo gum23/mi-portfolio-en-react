@@ -8,14 +8,12 @@ import { Certificaciones } from '../pages/Certificaciones';
 
 export default function MyRoutes() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/proyectos" element={<Proyectos />} />
-        <Route path="/certificaciones" element={<Certificaciones />} />
-        <Route path="/contacto" element={<Contacto />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/proyectos" element={<Proyectos />} />
+      <Route path="/certificaciones" element={<Certificaciones />} />
+      <Route path="/contacto" element={<Contacto />} />
+    </Routes>
   )
 }

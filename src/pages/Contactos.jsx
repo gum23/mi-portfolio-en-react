@@ -33,7 +33,7 @@ export function Contacto() {
             <div className="titleContainer">
                 <h1>Contacto</h1>
             </div>
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} >
 
                 <div className="inputContainer">
                     <input type="email" placeholder="Example@email" className="input" name="user_email" required />
@@ -79,7 +79,12 @@ const Container = styled.div`
         justify-content: center;
         align-items: center;
         margin: 40px auto 0;
-
+        background: #3F5286;
+        .titleContainer{
+            h1{
+                color: #fff
+            }
+        }
     };
     .inputContainer{
         margin-bottom: 16px; 
